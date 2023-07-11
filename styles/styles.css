@@ -281,6 +281,85 @@ margin-left: 400px;
 
 }
 
+/*Instagram*/
+
+.socials{
+    margin-top: 100px;
+    margin-left: 300px;
+    justify-content: center;
+}
+
+.instagram{
+    color: #272727;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-left: 300px;
+
+
+}
+.ig-1{
+    width: 200px;
+height: 250px;
+flex-shrink: 0;
+}
+
+.ig-2{
+    width: 200px;
+height: 250px;
+flex-shrink: 0;
+
+}
+
+.ig-3{
+    width: 200px;
+height: 250px;
+flex-shrink: 0;
+}
+
+.ig-4{
+    width: 200px;
+height: 250px;
+flex-shrink: 0;
+
+}
+
+
+/*Reviews*/
+
+.review-section {
+    width: 1300px;
+    height: 600px;
+   flex-shrink: 0;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(215, 230, 243);
+  }
+.review {
+    margin-bottom: 20px;
+  }
+  
+.review img {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+.review-flower {
+    margin-bottom: 5px;
+    font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+  }
+  
+.review p {
+    font-style: italic;
+    color: #555;
+  }
+
 
 
 
