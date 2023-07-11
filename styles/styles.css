@@ -1,23 +1,26 @@
 /*header related styles*/
 .header{
  background-color: #e55473.10%;
- width: 1700px;
-height: 750px;
-flex-shrink: 0;
+ 
+ 
 }
 
 .banner{
     
     background: rgba(300, 100, 115, 0.10);
     background-color: #e55473.10%;
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 10px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 
 
 }
 
+.banner-content{
+    max-width: 500px;
 
+}
 
 .btn-primary{
     display:inline-flex;
@@ -41,7 +44,8 @@ font-size: 80px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
-padding: 20px
+padding: 20px;
+margin-bottom: 0px;
 }
 
 .banner-description{
@@ -55,12 +59,121 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 30px;
-padding: 20px
+padding: 20px;
+margin-top:30px;
+margin-bottom: 40px;
 
 }
 
 .banner .profile{
     width: 500px;
 
+
 }
+
+
+/*main section*/
+
+.feature{
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 50px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-top:150px;
+margin-bottom: 40px;
+
+}
+
+.feature-description{
+text-align: center;
+
+color: rgba(48, 2, 55, 0.505);
+
+font-family: Lato;
+font-size: 25px;
+font-style:oblique;
+font-weight: 400;
+line-height: 30px;
+
+
+}
+
+.flower-section{
+    display:flex;
+    background-color:white;
+    align-items: center;
+    width: 850px;
+height: 520px;
+padding: 240px;
+
+
+}
+
+.pink-background{
+    width: 300px;
+height: 300px;
+flex-shrink: 0;
+border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+padding: 20px;
+margin-top: 0px;
+gap: 20px;
+
+
+}
+
+.profile-1{
+    width: 150px;
+height: 250px;
+flex-shrink: 0;
+align-items: center;
+padding: 30px 30px 0px 50px;
+}
+
+.green-background{
+    width: 300px;
+height: 300px;
+flex-shrink: 0;
+border-radius: 300px 300px 0px 0px;
+background: rgba(94, 244, 189, 0.15);
+padding: 20px;
+gap: 20px;
+}
+
+.profile-2{
+    width: 150px;
+    height: 250px;
+    flex-shrink: 0;
+    align-items: center;
+    padding: 30px 30px 0px 50px;
+}
+
+.yellow-background{
+    width: 300px;
+height: 300px;
+flex-shrink: 0;
+border-radius: 300px 300px 0px 0px;
+background: rgba(237, 242, 105, 0.15);
+padding: 20px;
+
+}
+
+.profile-3{
+    width: 150px;
+    height: 250px;
+    flex-shrink: 0;
+    align-items: center;
+    padding: 30px 30px 0px 50px;
+}
+
+
+
+
+
+
+
+
 
