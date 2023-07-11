@@ -339,7 +339,9 @@ flex-shrink: 0;
   }
 .review {
     margin-bottom: 20px;
-  }
+
+}
+    
   
 .review img {
     width: 100px;
@@ -359,6 +361,8 @@ line-height: normal;
     font-style: italic;
     color: #555;
   }
+
+
 
 /*email-bar*/
 
@@ -400,7 +404,47 @@ text-align: center;
 
 
 
+/*footer*/
 
+.footer{
+   margin-top: 60px;
+    padding: 30px 30px 10px 150px;
+    border-radius: 8px;
+    background-color: #272727;
+    align-items: center;
+
+
+}
+
+.section-title{
+    color: #E55473;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+}
+
+.description{
+    color: #f6ecee;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+}
+
+.copy{
+    color: #c8bcbe;
+    font-family: Lato;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+}
 
 
 
